@@ -112,7 +112,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://nihandel.github.com/todo-angular"
+            "baseHref": "https://nihandel.github.io/todo-angular.git"
           }
         }
       }
