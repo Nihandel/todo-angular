@@ -1,6 +1,12 @@
 <nb-list>
-    <nb-list-item>asd</nb-list-item>
-    <nb-list-item>asd</nb-list-item>
-    <nb-list-item>asd</nb-list-item>
-    <nb-list-item>asd</nb-list-item>  
+    <nb-list-item *ngFor="let item of todos$|async as List" class="padding">
+        <nb-card class="card">
+            <nb-card-header>
+                {{item.title}}
+            </nb-card-header>
+            <nb-card-body>
+                {{item.description}}
+            </nb-card-body>
+        </nb-card>
+    </nb-list-item>
 </nb-list>

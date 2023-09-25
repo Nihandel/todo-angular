@@ -7,6 +7,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NbThemeModule, NbLayoutModule, NbButtonModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import { TodoInMemoryPersistencyService } from './services/persistency/todo-in-memory-persistency.service';
+import { APersistency } from './services/persistency/a-persistency';
+import { TodoPersistenceService } from './services/todo-persistence.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     NbButtonModule,
     HomePageComponent
   ],
-  providers: [],
+  providers: [{ provide: APersistency, useClass: TodoInMemoryPersistencyService }, TodoPersistenceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
