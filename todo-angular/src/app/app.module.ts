@@ -15,6 +15,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { NgxIndexedDBModule } from 'ngx-indexed-db';
 import { TodoBrowserDbPersistencyService } from './services/persistency/todo-browser-db-persistency.service';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -43,6 +45,12 @@ import { TodoBrowserDbPersistencyService } from './services/persistency/todo-bro
     BrowserModule,
     NbCardModule,
     NbInputModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   providers: [{ provide: APersistency, useClass: TodoBrowserDbPersistencyService }, TodoPersistenceService],
   bootstrap: [AppComponent]
