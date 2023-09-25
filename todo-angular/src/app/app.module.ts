@@ -13,6 +13,8 @@ import { TodoPersistenceService } from './services/todo-persistence.service';
 import { AddTodoModalComponent } from './components/modals/add-todo-modal/add-todo-modal.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { NgxIndexedDBModule } from 'ngx-indexed-db';
+import { TodoBrowserDbPersistencyService } from './services/persistency/todo-browser-db-persistency.service';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,12 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     BrowserAnimationsModule,
     NbThemeModule.forRoot({ name: 'cosmic' }),
+    NgxIndexedDBModule.forRoot({name:"todos",version:1,isDefault:true,objectStoresMeta:[
+      {store:'todos',storeConfig:{keyPath:'id',autoIncrement:true},storeSchema:[
+        {name:'title',keypath:'title',options:{unique:false}},
+        {name:'description',keypath:'description',options:{unique:false}}
+      ]}
+    ]}),
     NbDialogModule.forRoot(),
     NbLayoutModule,
     NbEvaIconsModule,
@@ -36,7 +44,7 @@ import { FormsModule } from '@angular/forms';
     NbCardModule,
     NbInputModule,
   ],
-  providers: [{ provide: APersistency, useClass: TodoInMemoryPersistencyService }, TodoPersistenceService],
+  providers: [{ provide: APersistency, useClass: TodoBrowserDbPersistencyService }, TodoPersistenceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

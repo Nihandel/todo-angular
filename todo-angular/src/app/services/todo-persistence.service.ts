@@ -7,24 +7,23 @@ import { BehaviorSubject, Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class TodoPersistenceService {
-  public get todos$():Observable<ToDoModel[]>{
+  public get todos$(): Observable<ToDoModel[]> {
     return this.todoStreamController.asObservable();
   }
   constructor(private persistency: APersistency<ToDoModel>) {
-    var todos = persistency.readAll();
-    this.todoStreamController.next(todos);
-   }
-  public async add(todo:ToDoModel) {
+    persistency.readAll().then((todos) => this.todoStreamController.next(todos));
+  }
+  public async add(todo: ToDoModel) {
     this.persistency.add(todo);
-    this.todoStreamController.next(this.persistency.readAll());
+    this.todoStreamController.next(await this.persistency.readAll());
   }
-  public async remove(todo:ToDoModel){
+  public async remove(todo: ToDoModel) {
     this.persistency.remove(todo);
-    this.todoStreamController.next(this.persistency.readAll());
+    this.todoStreamController.next(await this.persistency.readAll());
   }
-  public async update(todo:ToDoModel){
+  public async update(todo: ToDoModel) {
     this.persistency.update(todo);
-    this.todoStreamController.next(this.persistency.readAll());
+    this.todoStreamController.next(await this.persistency.readAll());
   }
   private todoStreamController = new BehaviorSubject<ToDoModel[]>([]);
 }

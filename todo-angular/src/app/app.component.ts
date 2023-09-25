@@ -15,10 +15,9 @@ export class AppComponent {
 
   }
   showAddTask() {
-    this.dialogService.open(AddTodoModalComponent)
+    this.dialogService.open(AddTodoModalComponent,)
       .onClose
       .subscribe((value) => {
-        debugger
         var todo = new ToDoModel(value.title, value.description);
         this.todoService.add(todo);
       });

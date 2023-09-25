@@ -7,17 +7,17 @@ import { ToDoModel } from 'src/app/models/todo-model';
 })
 export class TodoInMemoryPersistencyService implements APersistency<ToDoModel> {
   constructor() {}
-  readAll(): ToDoModel[] {
+  async readAll(): Promise<ToDoModel[]> {
       return [...this.todos];
   }
-  add(value: ToDoModel): void {
+  async add(value: ToDoModel): Promise<void> {
       this.todos.push(value);
   }
-  remove(value: ToDoModel): void {
+  async remove(value: ToDoModel): Promise<void> {
       var finded = this.todos.findIndex(x=>x.title == value.title && x.description == value.description);
       this.todos.splice(finded,1);
   }
-  update(value: ToDoModel): ToDoModel {
+  async update(value: ToDoModel): Promise<ToDoModel> {
       var finded = this.todos.findIndex(x=>x.title == value.title && x.description == value.description);
       this.todos[finded]=value;
       return value;

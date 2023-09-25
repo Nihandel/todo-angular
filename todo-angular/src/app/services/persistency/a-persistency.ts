@@ -1,6 +1,6 @@
 export abstract class APersistency<T>{
-    abstract readAll():Array<T>;
-    abstract add(value:T):void;
-    abstract remove(value:T):void;
-    abstract update(value:T):T;
+    abstract readAll():Promise<Array<T>>;
+    abstract add(value:T):Promise<void>;
+    abstract remove(value:T):Promise<void>;
+    abstract update(value:T):Promise<T>;
 }

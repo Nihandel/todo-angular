@@ -1,4 +1,4 @@
-<nb-card>
+<nb-card status="primary">
     <nb-card-header>
         <h3>
             New Task
@@ -7,14 +7,14 @@
     <nb-card-body>
         <form #form="ngForm" (ngSubmit)="onSubmit($event)">
             <div>
-                <input nbInput type="text" [(ngModel)]="model.title" name="title" required minlength="6"/>
+                <input nbInput type="text" [(ngModel)]="model.title" name="title" required minlength="6" maxlength="100"/>
             </div>
             <div>
                 <textarea nbInput type="text" style="width: 100%; height: 100%;" name="description" [(ngModel)]="model.description">
                 </textarea>
             </div>
-            <div>
-                <input nbButton type="submit">
+            <div style="display: flex; flex-direction: row-reverse; ">
+                <input nbButton type="submit" [disabled]="form.invalid">
             </div>
         </form>
     </nb-card-body>
