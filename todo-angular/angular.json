@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "https://nihandel.github.com/todo-angular",
+            "baseHref": "todo-angular",
             "outputPath": "dist/",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -112,7 +112,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://nihandel.github.io/todo-angular.git"
+            "baseHref": "todo-angular"
           }
         }
       }
