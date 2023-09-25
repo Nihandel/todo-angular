@@ -2,7 +2,14 @@
     <nb-list-item *ngFor="let item of todos$|async as List" class="padding">
         <nb-card class="card">
             <nb-card-header>
-                {{item.title}}
+                <div class="row">
+                    <h3>
+                        {{item.title}}
+                    </h3>
+                    <button nbButton status="danger" (click)="onDelete(item)">
+                        <nb-icon icon="trash"></nb-icon>
+                    </button>
+                </div>
             </nb-card-header>
             <nb-card-body>
                 {{item.description}}

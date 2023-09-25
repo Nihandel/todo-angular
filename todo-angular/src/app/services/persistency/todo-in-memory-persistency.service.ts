@@ -15,7 +15,7 @@ export class TodoInMemoryPersistencyService implements APersistency<ToDoModel> {
   }
   remove(value: ToDoModel): void {
       var finded = this.todos.findIndex(x=>x.title == value.title && x.description == value.description);
-      this.todos = this.todos.splice(finded,1);
+      this.todos.splice(finded,1);
   }
   update(value: ToDoModel): ToDoModel {
       var finded = this.todos.findIndex(x=>x.title == value.title && x.description == value.description);
