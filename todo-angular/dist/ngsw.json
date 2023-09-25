@@ -1,7 +1,7 @@
 {
   "configVersion": 1,
-  "timestamp": 1695671764096,
-  "index": "https://Nihandel.github.com/todo-angular/index.html",
+  "timestamp": 1695672137930,
+  "index": "https://nihandel.github.com/todo-angular/index.html",
   "assetGroups": [
     {
       "name": "app",
@@ -11,13 +11,13 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://Nihandel.github.com/todo-angular/favicon.ico",
-        "https://Nihandel.github.com/todo-angular/index.html",
-        "https://Nihandel.github.com/todo-angular/main.1317962a490e7809.js",
-        "https://Nihandel.github.com/todo-angular/manifest.webmanifest",
-        "https://Nihandel.github.com/todo-angular/polyfills.98660aaf142403f1.js",
-        "https://Nihandel.github.com/todo-angular/runtime.97e3f5ad292bfa3a.js",
-        "https://Nihandel.github.com/todo-angular/styles.78dce1cea0c0586c.css"
+        "https://nihandel.github.com/todo-angular/favicon.ico",
+        "https://nihandel.github.com/todo-angular/index.html",
+        "https://nihandel.github.com/todo-angular/main.1317962a490e7809.js",
+        "https://nihandel.github.com/todo-angular/manifest.webmanifest",
+        "https://nihandel.github.com/todo-angular/polyfills.98660aaf142403f1.js",
+        "https://nihandel.github.com/todo-angular/runtime.97e3f5ad292bfa3a.js",
+        "https://nihandel.github.com/todo-angular/styles.78dce1cea0c0586c.css"
       ],
       "patterns": []
     },
@@ -29,41 +29,41 @@
         "ignoreVary": true
       },
       "urls": [
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-128x128.png",
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-144x144.png",
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-152x152.png",
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-192x192.png",
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-384x384.png",
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-512x512.png",
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-72x72.png",
-        "https://Nihandel.github.com/todo-angular/assets/icons/icon-96x96.png",
-        "https://Nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-16.png",
-        "https://Nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-32.png",
-        "https://Nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-96.png"
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-128x128.png",
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-144x144.png",
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-152x152.png",
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-192x192.png",
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-384x384.png",
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-512x512.png",
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-72x72.png",
+        "https://nihandel.github.com/todo-angular/assets/icons/icon-96x96.png",
+        "https://nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-16.png",
+        "https://nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-32.png",
+        "https://nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-96.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://Nihandel.github.com/todo-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://Nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-16.png": "7b238a319fffc2d194c6ba24f9c95a2acaa0b084",
-    "https://Nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-32.png": "5e8bb0bb13d5081b1da18a6ded864db4326087ca",
-    "https://Nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-96.png": "e31561eba450609a7b4aa969ba3b35ee048749af",
-    "https://Nihandel.github.com/todo-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://Nihandel.github.com/todo-angular/index.html": "affab53611d3531051d0f626f6d1fb37554e61bb",
-    "https://Nihandel.github.com/todo-angular/main.1317962a490e7809.js": "95f31ad369f93aad373418949cefe08e2c80bc38",
-    "https://Nihandel.github.com/todo-angular/manifest.webmanifest": "16f7b192f0f31a335065b2e428a0724bb5dacdc1",
-    "https://Nihandel.github.com/todo-angular/polyfills.98660aaf142403f1.js": "f02d092ba21956dcdadb6ed7b98df6b9e73e9354",
-    "https://Nihandel.github.com/todo-angular/runtime.97e3f5ad292bfa3a.js": "cc140a8d886694aa16d7a56922d163257ff4b4da",
-    "https://Nihandel.github.com/todo-angular/styles.78dce1cea0c0586c.css": "58a4947c379784de456f4eef4b0e7f683634958f"
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://nihandel.github.com/todo-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-16.png": "7b238a319fffc2d194c6ba24f9c95a2acaa0b084",
+    "https://nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-32.png": "5e8bb0bb13d5081b1da18a6ded864db4326087ca",
+    "https://nihandel.github.com/todo-angular/assets/logo/icon-todo-list-16-96.png": "e31561eba450609a7b4aa969ba3b35ee048749af",
+    "https://nihandel.github.com/todo-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://nihandel.github.com/todo-angular/index.html": "1bdd72e9bd069123db0acdd12ae75f10bc2d44a6",
+    "https://nihandel.github.com/todo-angular/main.1317962a490e7809.js": "95f31ad369f93aad373418949cefe08e2c80bc38",
+    "https://nihandel.github.com/todo-angular/manifest.webmanifest": "16f7b192f0f31a335065b2e428a0724bb5dacdc1",
+    "https://nihandel.github.com/todo-angular/polyfills.98660aaf142403f1.js": "f02d092ba21956dcdadb6ed7b98df6b9e73e9354",
+    "https://nihandel.github.com/todo-angular/runtime.97e3f5ad292bfa3a.js": "cc140a8d886694aa16d7a56922d163257ff4b4da",
+    "https://nihandel.github.com/todo-angular/styles.78dce1cea0c0586c.css": "58a4947c379784de456f4eef4b0e7f683634958f"
   },
   "navigationUrls": [
     {
