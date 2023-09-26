@@ -1,6 +1,6 @@
 <nb-list>
-    <nb-list-item *ngFor="let item of todos$|async" class="padding">
-        <nb-card class="card">
+    <nb-list-item *ngFor="let item of todos$|async" class="padding" style="overflow: hidden;">
+        <nb-card class="card" [@onDelete]="item==deleting?'delete':'default'">
             <nb-card-header>
                 <div class="row">
                     <h3>
