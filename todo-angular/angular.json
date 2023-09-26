@@ -109,13 +109,7 @@
             "scripts": []
           }
         },
-        "deploy": {
-          "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "https://nihandel.github.io/todo-angular/",
-            "email": "finottofrancesco1@gmail.com"
-          }
-        }
+        "deploy": "ng build --prod --base-href=/todo-angular/"
       }
     }
   }
