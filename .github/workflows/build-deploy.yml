@@ -23,9 +23,13 @@ jobs:
       run: cd todo-angular |
         npm install
         npm run-script deploy
+    - name: Build
+      run: npm run build:prod
+
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      if: success()
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: todo-angular/dist
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: dist/angular-github-actions
+        enable_jekyll: true
