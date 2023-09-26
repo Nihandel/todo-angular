@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "https://nihandel.github.io/todo-angular/",
+            "baseHref": "http://localhost:4200/",
             "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -41,6 +41,7 @@
           },
           "configurations": {
             "production": {
+              "baseHref": "https://nihandel.github.io/todo-angular/",
               "budgets": [
                 {
                   "type": "initial",
