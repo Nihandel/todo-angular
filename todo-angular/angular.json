@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "baseHref": "todo-angular",
+            "baseHref": "https://nihandel.github.io/todo-angular/",
             "outputPath": "docs",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -112,7 +112,8 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "todo-angular"
+            "baseHref": "https://nihandel.github.io/todo-angular/",
+            "email": "finottofrancesco1@gmail.com"
           }
         }
       }
