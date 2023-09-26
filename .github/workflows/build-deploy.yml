@@ -12,7 +12,8 @@ jobs:
       uses: actions/checkout@v1
     - uses: actions/setup-node@v1 #this installs node and npm for us
       with:
-        node-version: '16.x'
+        node-version: '18.x'
+    - uses: actions/cache@v1
       with:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
@@ -21,7 +22,7 @@ jobs:
     - name: Build
       run: cd todo-angular |
         npm install
-        npm run-script deploy
+        npm run-script deploy --configuration production
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
