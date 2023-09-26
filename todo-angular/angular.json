@@ -102,6 +102,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/assets/logo",
               "src/manifest.webmanifest"
             ],
             "styles": [
