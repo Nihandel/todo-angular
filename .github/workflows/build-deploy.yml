@@ -13,7 +13,6 @@ jobs:
     - uses: actions/setup-node@v1 #this installs node and npm for us
       with:
         node-version: '16.x'
-      with:
         path: ~/.npm
         key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
         restore-keys: |
