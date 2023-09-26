@@ -20,7 +20,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-node-    
     - name: Build
-      run: cd todo-angular|
+      run: cd todo-angular |
         npm install
         npm run-script deploy
     - name: Deploy
@@ -28,4 +28,4 @@ jobs:
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
-        FOLDER: dist
+        FOLDER: todo-angular/dist
