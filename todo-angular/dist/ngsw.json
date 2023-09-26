@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1695729017936,
+  "timestamp": 1695769658632,
   "index": "https://nihandel.github.io/todo-angular/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "https://nihandel.github.io/todo-angular/favicon.ico",
         "https://nihandel.github.io/todo-angular/index.html",
-        "https://nihandel.github.io/todo-angular/main.be58ebb40ffdd4ec.js",
+        "https://nihandel.github.io/todo-angular/main.f0a561c5eae9edd7.js",
         "https://nihandel.github.io/todo-angular/manifest.webmanifest",
         "https://nihandel.github.io/todo-angular/polyfills.98660aaf142403f1.js",
         "https://nihandel.github.io/todo-angular/runtime.97e3f5ad292bfa3a.js",
@@ -58,9 +58,9 @@
     "https://nihandel.github.io/todo-angular/assets/logo/icon-todo-list-16-32.png": "5e8bb0bb13d5081b1da18a6ded864db4326087ca",
     "https://nihandel.github.io/todo-angular/assets/logo/icon-todo-list-16-96.png": "e31561eba450609a7b4aa969ba3b35ee048749af",
     "https://nihandel.github.io/todo-angular/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "https://nihandel.github.io/todo-angular/index.html": "0911889632c1df2912841f1db68e67fcfcbebde7",
-    "https://nihandel.github.io/todo-angular/main.be58ebb40ffdd4ec.js": "38cd392f6bb7dde640d623820474265f21758ea4",
-    "https://nihandel.github.io/todo-angular/manifest.webmanifest": "16f7b192f0f31a335065b2e428a0724bb5dacdc1",
+    "https://nihandel.github.io/todo-angular/index.html": "06ded12e2ade7fb2bd75da92bd4aca834c5392c8",
+    "https://nihandel.github.io/todo-angular/main.f0a561c5eae9edd7.js": "f027535ef7c2740fefe8bb31c5abc44293cd6b61",
+    "https://nihandel.github.io/todo-angular/manifest.webmanifest": "3ab335be8d0d6ea0b06ac52af93137a77d70776f",
     "https://nihandel.github.io/todo-angular/polyfills.98660aaf142403f1.js": "f02d092ba21956dcdadb6ed7b98df6b9e73e9354",
     "https://nihandel.github.io/todo-angular/runtime.97e3f5ad292bfa3a.js": "cc140a8d886694aa16d7a56922d163257ff4b4da",
     "https://nihandel.github.io/todo-angular/styles.78dce1cea0c0586c.css": "58a4947c379784de456f4eef4b0e7f683634958f"
