@@ -111,7 +111,7 @@
             "scripts": []
           }
         },
-        "deploy": "ng build --prod --base-href=/todo-angular/"
+        "deploy": "ng build --configuration=production --base-href=/todo-angular/"
       }
     }
   }
