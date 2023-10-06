@@ -3,6 +3,7 @@ import { TodoPersistenceService } from './services/todo-persistence.service';
 import { NbDialogRef, NbDialogService } from '@nebular/theme';
 import { AddTodoModalComponent } from './components/modals/add-todo-modal/add-todo-modal.component';
 import { ToDoModel } from './models/todo-model';
+import { environment } from 'src/environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -11,6 +12,7 @@ import { ToDoModel } from './models/todo-model';
 })
 export class AppComponent {
   title = 'todo-angular';
+  verison = environment.version;
   constructor(private todoService: TodoPersistenceService, private dialogService: NbDialogService) {
 
   }
